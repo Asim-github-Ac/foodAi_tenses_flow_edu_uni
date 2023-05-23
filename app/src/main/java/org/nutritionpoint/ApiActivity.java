@@ -57,7 +57,7 @@ public class ApiActivity extends AppCompatActivity {
 
             String allStrings;
             try{
-                URL myUrl = new URL("https://api.nutritionix.com/v1_1/search/" +
+                URL myUrl = new URL("http://api.nutritionix.com/v1_1/search/" +
                         food +"?fields=item_name%2Citem_id%2Cnf_calories%2Cnf_total_fat" +
                         "&appId=3fe5fa47&appKey=61729b9d2d8612a629467f0cdbbd6d2c");
                 HttpURLConnection connection =(HttpURLConnection) myUrl.openConnection();

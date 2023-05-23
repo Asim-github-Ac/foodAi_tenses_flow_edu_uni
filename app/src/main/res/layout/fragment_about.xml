@@ -91,7 +91,7 @@
             android:layout_margin="5dp"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="Nutrition Point developed by Ahmad Hussein"
+            android:text="Nutrition Point developed by Mirza Sharjeel And Shabih Zeeshan"
             android:textAllCaps="true"
             android:textStyle="bold" />
 
@@ -102,7 +102,7 @@
             android:layout_marginBottom="8dp"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="Ahmux.freelander@gmail.com"
+            android:text="pagal6703@gmail.com"
             android:textAllCaps="false"
             android:textStyle="bold" />
     </LinearLayout>

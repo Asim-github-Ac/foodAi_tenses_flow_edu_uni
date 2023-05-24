@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="org.nutritionpoint.SignUpPage">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_marginTop="50dp"
+            android:contentDescription="Happy boy, welcomes"
+            android:src="@drawable/ic_undraw_welcome_3gvl"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/welcome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:text="Welcome"
+            android:textSize="25sp"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            app:layout_constraintTop_toBottomOf="@+id/welcome"
+            tools:layout_editor_absoluteX="0dp">
+                <EditText
+                    android:id="@+id/fName"
+                    android:layout_width="350dp"
+                    android:layout_height="50dp"
+                    android:hint="First Name"
+                    android:background="@drawable/ed_back"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/black"
+                    android:padding="10dp"
+                    android:layout_marginTop="10dp"
+                    android:inputType="textPersonName"/>
+                <EditText
+                    android:id="@+id/lName"
+                    android:layout_width="350dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_height="50dp"
+                    android:hint="Last Name"
+                    android:textColorHint="@color/black"
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    android:background="@drawable/ed_back"
+                    android:inputType="textPersonName"/>
+
+
+                <EditText
+                    android:id="@+id/email"
+                    android:layout_width="350dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="50dp"
+                    android:hint="Email"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/black"
+                    android:padding="10dp"
+                    android:background="@drawable/ed_back"
+                    android:inputType="textEmailAddress" />
+                <EditText
+                    android:id="@+id/phoneNumber"
+                    android:layout_width="350dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:hint="Phone Number"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/black"
+                    android:padding="10dp"
+                    android:background="@drawable/ed_back"
+                    android:inputType="text|phone" />
+
+                <EditText
+                    android:id="@+id/organizationName"
+                    android:layout_width="350dp"
+                    android:layout_marginTop="10dp"
+                    android:textColorHint="@color/black"
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    android:background="@drawable/ed_back"
+                    android:layout_height="50dp"
+                    android:hint="Organization" />
+                <EditText
+                    android:id="@+id/password"
+                    android:layout_width="350dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/black"
+                    android:hint="Password"
+                    android:textColorHint="@color/black"
+                    android:padding="10dp"
+                    android:background="@drawable/ed_back"
+                    android:inputType="textPassword" />
+
+            <Button
+                android:id="@+id/sign_up_btn"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="32dp"
+                android:text="Signup"
+                android:textColor="@color/colorWhite"
+                android:background="#00bbff"
+                android:textSize="20dp"
+                app:backgroundTint="#00bbff"/>
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

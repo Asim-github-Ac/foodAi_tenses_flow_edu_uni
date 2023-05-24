@@ -34,4 +34,15 @@
     <string name="weight">Weight</string>
     <string name="height">Height</string>
     <string name="analyze_data">Analyze Data</string>
+    <string name="signup_failed">Something Wrong</string>
+    <string name="fname_val">Please provide your first name</string>
+    <string name="email_val">Please provide a valid email address</string>
+    <string name="password_val">The password should have 8 or more characters</string>
+    <string name="password">Password</string>
+    <string name="cntn">Login</string>
+    <string name="forgotpass">Forget Pass</string>
+    <string name="welcome">Welcome</string>
+    <string name="login_ill">Girl holding key next to phone, unlock</string>
+    <string name="email">Email</string>
+    <string name="login_failed">Login Failded</string>
 </resources>

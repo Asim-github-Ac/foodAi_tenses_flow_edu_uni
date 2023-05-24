@@ -25,7 +25,7 @@ public class SplashActivity extends AppCompatActivity {
         public void run() {
             try{
                 //start NavActivity
-                Intent i = new Intent(SplashActivity.this, MainActivity.class);
+                Intent i = new Intent(SplashActivity.this, LoginPage.class);
                 startActivity(i);
                 //close SplashActivity
                 finish();

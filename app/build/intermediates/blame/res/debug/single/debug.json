@@ -4,8 +4,16 @@
         "source": "E:\\riphah fyp\\Food.AI\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "E:\\riphah fyp\\Food.AI\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_undraw_welcome_3gvl.png.flat",
+        "source": "E:\\riphah fyp\\Food.AI\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_undraw_welcome_3gvl.png"
+    },
+    {
         "merged": "E:\\riphah fyp\\Food.AI\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_menu_calculate.xml.flat",
         "source": "E:\\riphah fyp\\Food.AI\\app\\src\\main\\res\\drawable-hdpi\\ic_menu_calculate.xml"
+    },
+    {
+        "merged": "E:\\riphah fyp\\Food.AI\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ed_back.xml.flat",
+        "source": "E:\\riphah fyp\\Food.AI\\app\\src\\main\\res\\drawable\\ed_back.xml"
     },
     {
         "merged": "E:\\riphah fyp\\Food.AI\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_splash.xml.flat",
@@ -22,6 +30,18 @@
     {
         "merged": "E:\\riphah fyp\\Food.AI\\app\\build\\intermediates\\res\\merged\\debug\\layout_f3_layout.xml.flat",
         "source": "E:\\riphah fyp\\Food.AI\\app\\src\\main\\res\\layout\\f3_layout.xml"
+    },
+    {
+        "merged": "E:\\riphah fyp\\Food.AI\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login_page.xml.flat",
+        "source": "E:\\riphah fyp\\Food.AI\\app\\src\\main\\res\\layout\\activity_login_page.xml"
+    },
+    {
+        "merged": "E:\\riphah fyp\\Food.AI\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_undraw_welcome_3gvl.png.flat",
+        "source": "E:\\riphah fyp\\Food.AI\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_undraw_welcome_3gvl.png"
+    },
+    {
+        "merged": "E:\\riphah fyp\\Food.AI\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_sign_up_page.xml.flat",
+        "source": "E:\\riphah fyp\\Food.AI\\app\\src\\main\\res\\layout\\activity_sign_up_page.xml"
     },
     {
         "merged": "E:\\riphah fyp\\Food.AI\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_menu_recipes.xml.flat",
@@ -60,12 +80,16 @@
         "source": "E:\\riphah fyp\\Food.AI\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "E:\\riphah fyp\\Food.AI\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "E:\\riphah fyp\\Food.AI\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
         "merged": "E:\\riphah fyp\\Food.AI\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher.png.flat",
         "source": "E:\\riphah fyp\\Food.AI\\app\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "E:\\riphah fyp\\Food.AI\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "E:\\riphah fyp\\Food.AI\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "E:\\riphah fyp\\Food.AI\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_undraw_welcome_3gvl.xml.flat",
+        "source": "E:\\riphah fyp\\Food.AI\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_undraw_welcome_3gvl.xml"
     },
     {
         "merged": "E:\\riphah fyp\\Food.AI\\app\\build\\intermediates\\res\\merged\\debug\\layout_f1_layout.xml.flat",
@@ -100,6 +124,10 @@
         "source": "E:\\riphah fyp\\Food.AI\\app\\src\\main\\res\\drawable-hdpi\\ic_help_outline_black_24dp.xml"
     },
     {
+        "merged": "E:\\riphah fyp\\Food.AI\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_undraw_unlock_24mb.xml.flat",
+        "source": "E:\\riphah fyp\\Food.AI\\app\\src\\main\\res\\drawable\\ic_undraw_unlock_24mb.xml"
+    },
+    {
         "merged": "E:\\riphah fyp\\Food.AI\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_camera.png.flat",
         "source": "E:\\riphah fyp\\Food.AI\\app\\src\\main\\res\\drawable-xxhdpi\\camera.png"
     },
@@ -108,12 +136,12 @@
         "source": "E:\\riphah fyp\\Food.AI\\app\\src\\main\\res\\font\\karla.xml"
     },
     {
-        "merged": "E:\\riphah fyp\\Food.AI\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_api.xml.flat",
-        "source": "E:\\riphah fyp\\Food.AI\\app\\src\\main\\res\\layout\\activity_api.xml"
-    },
-    {
         "merged": "E:\\riphah fyp\\Food.AI\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
         "source": "E:\\riphah fyp\\Food.AI\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\riphah fyp\\Food.AI\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_api.xml.flat",
+        "source": "E:\\riphah fyp\\Food.AI\\app\\src\\main\\res\\layout\\activity_api.xml"
     },
     {
         "merged": "E:\\riphah fyp\\Food.AI\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_menu_facebook.xml.flat",
@@ -130,6 +158,14 @@
     {
         "merged": "E:\\riphah fyp\\Food.AI\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_green_gradient.xml.flat",
         "source": "E:\\riphah fyp\\Food.AI\\app\\src\\main\\res\\drawable-hdpi\\green_gradient.xml"
+    },
+    {
+        "merged": "E:\\riphah fyp\\Food.AI\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_undraw_welcome_3gvl.png.flat",
+        "source": "E:\\riphah fyp\\Food.AI\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_undraw_welcome_3gvl.png"
+    },
+    {
+        "merged": "E:\\riphah fyp\\Food.AI\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_undraw_welcome_3gvl.png.flat",
+        "source": "E:\\riphah fyp\\Food.AI\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_undraw_welcome_3gvl.png"
     },
     {
         "merged": "E:\\riphah fyp\\Food.AI\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_menu_detect.xml.flat",
@@ -152,6 +188,14 @@
         "source": "E:\\riphah fyp\\Food.AI\\app\\src\\main\\res\\drawable-hdpi\\ic_share.xml"
     },
     {
+        "merged": "E:\\riphah fyp\\Food.AI\\app\\build\\intermediates\\res\\merged\\debug\\font_montserrat.ttf.flat",
+        "source": "E:\\riphah fyp\\Food.AI\\app\\src\\main\\res\\font\\montserrat.ttf"
+    },
+    {
+        "merged": "E:\\riphah fyp\\Food.AI\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_undraw_welcome_3gvl.png.flat",
+        "source": "E:\\riphah fyp\\Food.AI\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_undraw_welcome_3gvl.png"
+    },
+    {
         "merged": "E:\\riphah fyp\\Food.AI\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
         "source": "E:\\riphah fyp\\Food.AI\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
@@ -168,12 +212,20 @@
         "source": "E:\\riphah fyp\\Food.AI\\app\\src\\main\\res\\layout\\nav_header_main.xml"
     },
     {
+        "merged": "E:\\riphah fyp\\Food.AI\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_undraw_welcome_3gvl.png.flat",
+        "source": "E:\\riphah fyp\\Food.AI\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_undraw_welcome_3gvl.png"
+    },
+    {
         "merged": "E:\\riphah fyp\\Food.AI\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher.png.flat",
         "source": "E:\\riphah fyp\\Food.AI\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
     },
     {
         "merged": "E:\\riphah fyp\\Food.AI\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
         "source": "E:\\riphah fyp\\Food.AI\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\riphah fyp\\Food.AI\\app\\build\\intermediates\\res\\merged\\debug\\font_open_sans.ttf.flat",
+        "source": "E:\\riphah fyp\\Food.AI\\app\\src\\main\\res\\font\\open_sans.ttf"
     },
     {
         "merged": "E:\\riphah fyp\\Food.AI\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_foreground.png.flat",
@@ -208,12 +260,12 @@
         "source": "E:\\riphah fyp\\Food.AI\\app\\src\\main\\res\\drawable-hdpi\\custom_progressbar.xml"
     },
     {
-        "merged": "E:\\riphah fyp\\Food.AI\\app\\build\\intermediates\\res\\merged\\debug\\layout_app_bar_main.xml.flat",
-        "source": "E:\\riphah fyp\\Food.AI\\app\\src\\main\\res\\layout\\app_bar_main.xml"
-    },
-    {
         "merged": "E:\\riphah fyp\\Food.AI\\app\\build\\intermediates\\res\\merged\\debug\\menu_activity_main_drawer.xml.flat",
         "source": "E:\\riphah fyp\\Food.AI\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
+    },
+    {
+        "merged": "E:\\riphah fyp\\Food.AI\\app\\build\\intermediates\\res\\merged\\debug\\layout_app_bar_main.xml.flat",
+        "source": "E:\\riphah fyp\\Food.AI\\app\\src\\main\\res\\layout\\app_bar_main.xml"
     },
     {
         "merged": "E:\\riphah fyp\\Food.AI\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_custom_button.xml.flat",
@@ -228,11 +280,11 @@
         "source": "E:\\riphah fyp\\Food.AI\\app\\src\\main\\res\\layout\\f2_layout.xml"
     },
     {
-        "merged": "E:\\riphah fyp\\Food.AI\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "E:\\riphah fyp\\Food.AI\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
-    },
-    {
         "merged": "E:\\riphah fyp\\Food.AI\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_about.xml.flat",
         "source": "E:\\riphah fyp\\Food.AI\\app\\src\\main\\res\\layout\\fragment_about.xml"
+    },
+    {
+        "merged": "E:\\riphah fyp\\Food.AI\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "E:\\riphah fyp\\Food.AI\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     }
 ]

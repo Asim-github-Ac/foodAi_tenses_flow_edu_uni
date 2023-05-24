@@ -22,110 +22,242 @@
 14-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:10:5-70
 14-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:10:19-67
 15
-16    <application
-16-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:12:5-69:19
-17        android:allowBackup="false"
-17-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:13:9-36
-18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-18-->[androidx.core:core:1.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\2df1ad5a3a8da31684d8a086d5d1f12c\core-1.1.0\AndroidManifest.xml:24:18-86
-19        android:debuggable="true"
-20        android:icon="@mipmap/ic_launcher"
-20-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:14:9-43
-21        android:label="@string/app_name"
-21-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:15:9-41
-22        android:roundIcon="@mipmap/ic_launcher_round"
-22-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:16:9-54
-23        android:supportsRtl="true"
-23-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:17:9-35
-24        android:testOnly="true"
-25        android:theme="@style/AppTheme.MainContent" >
-25-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:18:9-52
-26        <activity
-26-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:19:9-22:20
-27            android:name="org.tensorflow.lite.examples.detection.DetectorActivity"
-27-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:20:13-45
-28            android:theme="@style/AppTheme.ObjectDetection" >
-28-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:21:13-60
-29        </activity>
-30        <activity
-30-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:23:9-29:20
-31            android:name="org.tensorflow.lite.examples.detection.MainActivity"
-31-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:24:13-41
-32            android:label="@string/app_name"
-32-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:25:13-45
-33            android:screenOrientation="portrait"
-33-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:26:13-49
-34            android:theme="@style/AppTheme.MainContent" >
-34-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:27:13-56
-35        </activity>
-36        <activity
-36-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:30:9-40:20
-37            android:name="org.nutritionpoint.SplashActivity"
-37-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:31:13-61
-38            android:label="@string/app_name"
-38-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:32:13-45
-39            android:screenOrientation="portrait"
-39-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:33:13-49
-40            android:theme="@style/AppTheme.NoActionBar" >
-40-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:34:13-56
-41            <intent-filter>
-41-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:35:13-39:29
-42                <action android:name="android.intent.action.MAIN" />
-42-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:36:17-69
-42-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:36:25-66
-43
-44                <category android:name="android.intent.category.LAUNCHER" />
-44-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:38:17-77
-44-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:38:27-74
-45            </intent-filter>
-46        </activity>
-47        <activity
-47-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:41:9-47:20
-48            android:name="org.nutritionpoint.MainActivity"
-48-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:42:13-59
-49            android:label="@string/app_name"
-49-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:43:13-45
-50            android:screenOrientation="portrait"
-50-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:44:13-49
-51            android:theme="@style/AppTheme.NoActionBar" >
-51-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:45:13-56
-52        </activity>
-53        <activity
-53-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:48:9-50:58
-54            android:name="org.nutritionpoint.RemindersActivity"
-54-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:49:13-64
-55            android:parentActivityName="org.tensorflow.lite.examples.detection.MainActivity" />
-55-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:50:13-55
-56
-57        <receiver
-57-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:52:9-59:20
-58            android:name="org.nutritionpoint.AlarmReceiver"
-58-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:53:13-60
-59            android:enabled="true"
-59-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:54:13-35
-60            android:exported="true" >
-60-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:55:13-36
-61            <intent-filter>
-61-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:56:13-58:29
-62                <action android:name="Myaction.action" />
-62-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:57:17-58
-62-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:57:25-55
-63            </intent-filter>
-64        </receiver>
-65
-66        <activity
-66-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:61:9-63:67
-67            android:name="org.nutritionpoint.ApiActivity"
-67-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:62:13-58
-68            android:parentActivityName="org.tensorflow.lite.examples.detection.MainActivity" />
-68-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:63:13-55
-69
-70        <meta-data
-70-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:66:9-68:57
-71            android:name="preloaded_fonts"
-71-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:67:13-43
-72            android:resource="@array/preloaded_fonts" />
-72-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:68:13-54
-73    </application>
-74
-75</manifest>
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\51b401880ae86b17ec62d8906aed1ed3\jetified-firebase-auth-22.0.0\AndroidManifest.xml:25:5-67
+16-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\51b401880ae86b17ec62d8906aed1ed3\jetified-firebase-auth-22.0.0\AndroidManifest.xml:25:22-64
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\51b401880ae86b17ec62d8906aed1ed3\jetified-firebase-auth-22.0.0\AndroidManifest.xml:26:5-79
+17-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\51b401880ae86b17ec62d8906aed1ed3\jetified-firebase-auth-22.0.0\AndroidManifest.xml:26:22-76
+18
+19    <application
+19-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:12:5-69:19
+20        android:allowBackup="false"
+20-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:13:9-36
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\1f15d093da60aa7fd74981799d64ffed\core-1.2.0\AndroidManifest.xml:24:18-86
+22        android:debuggable="true"
+23        android:icon="@mipmap/ic_launcher"
+23-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:14:9-43
+24        android:label="@string/app_name"
+24-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:15:9-41
+25        android:roundIcon="@mipmap/ic_launcher_round"
+25-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:16:9-54
+26        android:supportsRtl="true"
+26-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:17:9-35
+27        android:testOnly="true"
+28        android:theme="@style/AppTheme.MainContent" >
+28-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:18:9-52
+29        <activity
+29-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:19:9-21:40
+30            android:name="org.nutritionpoint.SignUpPage"
+30-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:20:13-57
+31            android:exported="false" />
+31-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:21:13-37
+32        <activity
+32-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:22:9-24:40
+33            android:name="org.nutritionpoint.LoginPage"
+33-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:23:13-56
+34            android:exported="false" />
+34-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:24:13-37
+35        <activity
+35-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:25:9-27:63
+36            android:name="org.tensorflow.lite.examples.detection.DetectorActivity"
+36-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:26:13-45
+37            android:theme="@style/AppTheme.ObjectDetection" />
+37-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:27:13-60
+38        <activity
+38-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:28:9-32:59
+39            android:name="org.tensorflow.lite.examples.detection.MainActivity"
+39-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:29:13-41
+40            android:label="@string/app_name"
+40-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:30:13-45
+41            android:screenOrientation="portrait"
+41-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:31:13-49
+42            android:theme="@style/AppTheme.MainContent" />
+42-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:32:13-56
+43        <activity
+43-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:33:9-43:20
+44            android:name="org.nutritionpoint.SplashActivity"
+44-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:34:13-61
+45            android:label="@string/app_name"
+45-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:35:13-45
+46            android:screenOrientation="portrait"
+46-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:36:13-49
+47            android:theme="@style/AppTheme.NoActionBar" >
+47-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:37:13-56
+48            <intent-filter>
+48-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:38:13-42:29
+49                <action android:name="android.intent.action.MAIN" />
+49-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:39:17-69
+49-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:39:25-66
+50
+51                <category android:name="android.intent.category.LAUNCHER" />
+51-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:41:17-77
+51-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:41:27-74
+52            </intent-filter>
+53        </activity>
+54        <activity
+54-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:44:9-48:59
+55            android:name="org.nutritionpoint.MainActivity"
+55-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:45:13-59
+56            android:label="@string/app_name"
+56-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:46:13-45
+57            android:screenOrientation="portrait"
+57-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:47:13-49
+58            android:theme="@style/AppTheme.NoActionBar" />
+58-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:48:13-56
+59        <activity
+59-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:49:9-51:58
+60            android:name="org.nutritionpoint.RemindersActivity"
+60-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:50:13-64
+61            android:parentActivityName="org.tensorflow.lite.examples.detection.MainActivity" />
+61-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:51:13-55
+62
+63        <receiver
+63-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:53:9-60:20
+64            android:name="org.nutritionpoint.AlarmReceiver"
+64-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:54:13-60
+65            android:enabled="true"
+65-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:55:13-35
+66            android:exported="true" >
+66-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:56:13-36
+67            <intent-filter>
+67-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:57:13-59:29
+68                <action android:name="Myaction.action" />
+68-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:58:17-58
+68-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:58:25-55
+69            </intent-filter>
+70        </receiver>
+71
+72        <activity
+72-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:62:9-64:58
+73            android:name="org.nutritionpoint.ApiActivity"
+73-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:63:13-58
+74            android:parentActivityName="org.tensorflow.lite.examples.detection.MainActivity" />
+74-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:64:13-55
+75
+76        <meta-data
+76-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:66:9-68:57
+77            android:name="preloaded_fonts"
+77-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:67:13-43
+78            android:resource="@array/preloaded_fonts" />
+78-->E:\riphah fyp\Food.AI\app\src\main\AndroidManifest.xml:68:13-54
+79
+80        <activity
+80-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\51b401880ae86b17ec62d8906aed1ed3\jetified-firebase-auth-22.0.0\AndroidManifest.xml:29:9-46:20
+81            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+81-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\51b401880ae86b17ec62d8906aed1ed3\jetified-firebase-auth-22.0.0\AndroidManifest.xml:30:13-80
+82            android:excludeFromRecents="true"
+82-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\51b401880ae86b17ec62d8906aed1ed3\jetified-firebase-auth-22.0.0\AndroidManifest.xml:31:13-46
+83            android:exported="true"
+83-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\51b401880ae86b17ec62d8906aed1ed3\jetified-firebase-auth-22.0.0\AndroidManifest.xml:32:13-36
+84            android:launchMode="singleTask"
+84-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\51b401880ae86b17ec62d8906aed1ed3\jetified-firebase-auth-22.0.0\AndroidManifest.xml:33:13-44
+85            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+85-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\51b401880ae86b17ec62d8906aed1ed3\jetified-firebase-auth-22.0.0\AndroidManifest.xml:34:13-72
+86            <intent-filter>
+86-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\51b401880ae86b17ec62d8906aed1ed3\jetified-firebase-auth-22.0.0\AndroidManifest.xml:35:13-45:29
+87                <action android:name="android.intent.action.VIEW" />
+87-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\51b401880ae86b17ec62d8906aed1ed3\jetified-firebase-auth-22.0.0\AndroidManifest.xml:36:17-69
+87-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\51b401880ae86b17ec62d8906aed1ed3\jetified-firebase-auth-22.0.0\AndroidManifest.xml:36:25-66
+88
+89                <category android:name="android.intent.category.DEFAULT" />
+89-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\51b401880ae86b17ec62d8906aed1ed3\jetified-firebase-auth-22.0.0\AndroidManifest.xml:38:17-76
+89-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\51b401880ae86b17ec62d8906aed1ed3\jetified-firebase-auth-22.0.0\AndroidManifest.xml:38:27-73
+90                <category android:name="android.intent.category.BROWSABLE" />
+90-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\51b401880ae86b17ec62d8906aed1ed3\jetified-firebase-auth-22.0.0\AndroidManifest.xml:39:17-78
+90-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\51b401880ae86b17ec62d8906aed1ed3\jetified-firebase-auth-22.0.0\AndroidManifest.xml:39:27-75
+91
+92                <data
+92-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\51b401880ae86b17ec62d8906aed1ed3\jetified-firebase-auth-22.0.0\AndroidManifest.xml:41:17-44:51
+93                    android:host="firebase.auth"
+93-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\51b401880ae86b17ec62d8906aed1ed3\jetified-firebase-auth-22.0.0\AndroidManifest.xml:42:21-49
+94                    android:path="/"
+94-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\51b401880ae86b17ec62d8906aed1ed3\jetified-firebase-auth-22.0.0\AndroidManifest.xml:43:21-37
+95                    android:scheme="genericidp" />
+95-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\51b401880ae86b17ec62d8906aed1ed3\jetified-firebase-auth-22.0.0\AndroidManifest.xml:44:21-48
+96            </intent-filter>
+97        </activity>
+98        <activity
+98-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\51b401880ae86b17ec62d8906aed1ed3\jetified-firebase-auth-22.0.0\AndroidManifest.xml:47:9-64:20
+99            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+99-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\51b401880ae86b17ec62d8906aed1ed3\jetified-firebase-auth-22.0.0\AndroidManifest.xml:48:13-79
+100            android:excludeFromRecents="true"
+100-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\51b401880ae86b17ec62d8906aed1ed3\jetified-firebase-auth-22.0.0\AndroidManifest.xml:49:13-46
+101            android:exported="true"
+101-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\51b401880ae86b17ec62d8906aed1ed3\jetified-firebase-auth-22.0.0\AndroidManifest.xml:50:13-36
+102            android:launchMode="singleTask"
+102-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\51b401880ae86b17ec62d8906aed1ed3\jetified-firebase-auth-22.0.0\AndroidManifest.xml:51:13-44
+103            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+103-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\51b401880ae86b17ec62d8906aed1ed3\jetified-firebase-auth-22.0.0\AndroidManifest.xml:52:13-72
+104            <intent-filter>
+104-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\51b401880ae86b17ec62d8906aed1ed3\jetified-firebase-auth-22.0.0\AndroidManifest.xml:53:13-63:29
+105                <action android:name="android.intent.action.VIEW" />
+105-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\51b401880ae86b17ec62d8906aed1ed3\jetified-firebase-auth-22.0.0\AndroidManifest.xml:36:17-69
+105-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\51b401880ae86b17ec62d8906aed1ed3\jetified-firebase-auth-22.0.0\AndroidManifest.xml:36:25-66
+106
+107                <category android:name="android.intent.category.DEFAULT" />
+107-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\51b401880ae86b17ec62d8906aed1ed3\jetified-firebase-auth-22.0.0\AndroidManifest.xml:38:17-76
+107-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\51b401880ae86b17ec62d8906aed1ed3\jetified-firebase-auth-22.0.0\AndroidManifest.xml:38:27-73
+108                <category android:name="android.intent.category.BROWSABLE" />
+108-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\51b401880ae86b17ec62d8906aed1ed3\jetified-firebase-auth-22.0.0\AndroidManifest.xml:39:17-78
+108-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\51b401880ae86b17ec62d8906aed1ed3\jetified-firebase-auth-22.0.0\AndroidManifest.xml:39:27-75
+109
+110                <data
+110-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\51b401880ae86b17ec62d8906aed1ed3\jetified-firebase-auth-22.0.0\AndroidManifest.xml:41:17-44:51
+111                    android:host="firebase.auth"
+111-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\51b401880ae86b17ec62d8906aed1ed3\jetified-firebase-auth-22.0.0\AndroidManifest.xml:42:21-49
+112                    android:path="/"
+112-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\51b401880ae86b17ec62d8906aed1ed3\jetified-firebase-auth-22.0.0\AndroidManifest.xml:43:21-37
+113                    android:scheme="recaptcha" />
+113-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\51b401880ae86b17ec62d8906aed1ed3\jetified-firebase-auth-22.0.0\AndroidManifest.xml:44:21-48
+114            </intent-filter>
+115        </activity>
+116
+117        <service
+117-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\51b401880ae86b17ec62d8906aed1ed3\jetified-firebase-auth-22.0.0\AndroidManifest.xml:66:9-72:19
+118            android:name="com.google.firebase.components.ComponentDiscoveryService"
+118-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\51b401880ae86b17ec62d8906aed1ed3\jetified-firebase-auth-22.0.0\AndroidManifest.xml:67:13-84
+119            android:directBootAware="true"
+119-->[com.google.firebase:firebase-common:20.3.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\440ab6e6432488562ddd534e9b59a4d8\jetified-firebase-common-20.3.2\AndroidManifest.xml:34:13-43
+120            android:exported="false" >
+120-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\51b401880ae86b17ec62d8906aed1ed3\jetified-firebase-auth-22.0.0\AndroidManifest.xml:68:13-37
+121            <meta-data
+121-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\51b401880ae86b17ec62d8906aed1ed3\jetified-firebase-auth-22.0.0\AndroidManifest.xml:69:13-71:85
+122                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+122-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\51b401880ae86b17ec62d8906aed1ed3\jetified-firebase-auth-22.0.0\AndroidManifest.xml:70:17-109
+123                android:value="com.google.firebase.components.ComponentRegistrar" />
+123-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\51b401880ae86b17ec62d8906aed1ed3\jetified-firebase-auth-22.0.0\AndroidManifest.xml:71:17-82
+124        </service>
+125
+126        <provider
+126-->[com.google.firebase:firebase-common:20.3.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\440ab6e6432488562ddd534e9b59a4d8\jetified-firebase-common-20.3.2\AndroidManifest.xml:25:9-30:39
+127            android:name="com.google.firebase.provider.FirebaseInitProvider"
+127-->[com.google.firebase:firebase-common:20.3.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\440ab6e6432488562ddd534e9b59a4d8\jetified-firebase-common-20.3.2\AndroidManifest.xml:26:13-77
+128            android:authorities="org.tensorflow.lite.examples.detection.firebaseinitprovider"
+128-->[com.google.firebase:firebase-common:20.3.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\440ab6e6432488562ddd534e9b59a4d8\jetified-firebase-common-20.3.2\AndroidManifest.xml:27:13-72
+129            android:directBootAware="true"
+129-->[com.google.firebase:firebase-common:20.3.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\440ab6e6432488562ddd534e9b59a4d8\jetified-firebase-common-20.3.2\AndroidManifest.xml:28:13-43
+130            android:exported="false"
+130-->[com.google.firebase:firebase-common:20.3.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\440ab6e6432488562ddd534e9b59a4d8\jetified-firebase-common-20.3.2\AndroidManifest.xml:29:13-37
+131            android:initOrder="100" />
+131-->[com.google.firebase:firebase-common:20.3.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\440ab6e6432488562ddd534e9b59a4d8\jetified-firebase-common-20.3.2\AndroidManifest.xml:30:13-36
+132
+133        <activity
+133-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\6412f165f75982a52b4a9f4bd54a6386\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+134            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+134-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\6412f165f75982a52b4a9f4bd54a6386\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+135            android:exported="false"
+135-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\6412f165f75982a52b4a9f4bd54a6386\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+136            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+136-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\6412f165f75982a52b4a9f4bd54a6386\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+137
+138        <meta-data
+138-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\47fa418ff363375a3392ba60da438755\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+139            android:name="com.google.android.gms.version"
+139-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\47fa418ff363375a3392ba60da438755\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+140            android:value="@integer/google_play_services_version" />
+140-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\47fa418ff363375a3392ba60da438755\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+141    </application>
+142
+143</manifest>

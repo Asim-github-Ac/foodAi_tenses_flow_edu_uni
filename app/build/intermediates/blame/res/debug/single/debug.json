@@ -20,24 +20,24 @@
         "source": "E:\\riphah fyp\\Food.AI\\app\\src\\main\\res\\layout\\activity_splash.xml"
     },
     {
-        "merged": "E:\\riphah fyp\\Food.AI\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
-        "source": "E:\\riphah fyp\\Food.AI\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
-    },
-    {
         "merged": "E:\\riphah fyp\\Food.AI\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
         "source": "E:\\riphah fyp\\Food.AI\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "E:\\riphah fyp\\Food.AI\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "E:\\riphah fyp\\Food.AI\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
     },
     {
         "merged": "E:\\riphah fyp\\Food.AI\\app\\build\\intermediates\\res\\merged\\debug\\layout_f3_layout.xml.flat",
         "source": "E:\\riphah fyp\\Food.AI\\app\\src\\main\\res\\layout\\f3_layout.xml"
     },
     {
-        "merged": "E:\\riphah fyp\\Food.AI\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login_page.xml.flat",
-        "source": "E:\\riphah fyp\\Food.AI\\app\\src\\main\\res\\layout\\activity_login_page.xml"
-    },
-    {
         "merged": "E:\\riphah fyp\\Food.AI\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_undraw_welcome_3gvl.png.flat",
         "source": "E:\\riphah fyp\\Food.AI\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_undraw_welcome_3gvl.png"
+    },
+    {
+        "merged": "E:\\riphah fyp\\Food.AI\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login_page.xml.flat",
+        "source": "E:\\riphah fyp\\Food.AI\\app\\src\\main\\res\\layout\\activity_login_page.xml"
     },
     {
         "merged": "E:\\riphah fyp\\Food.AI\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_sign_up_page.xml.flat",

@@ -19,7 +19,6 @@ import com.google.android.material.button.MaterialButton;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 
-import org.tensorflow.lite.examples.detection.MainActivity;
 import org.tensorflow.lite.examples.detection.R;
 
 import java.util.Objects;
@@ -51,8 +50,9 @@ public class LoginPage extends AppCompatActivity {
                                     @Override
                                     public void onComplete(@NonNull Task<AuthResult> task) {
                                         if (task.isSuccessful()) {
-                                            startActivity(new Intent(LoginPage.this, MainActivity.class));
-                                            finish();
+                                            Intent intent = new Intent(LoginPage.this, MainActivity.class);
+                                            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+                                            startActivity(intent);
                                         } else {
                                             Toast.makeText(getApplicationContext(), getString(R.string.login_failed), Toast.LENGTH_SHORT).show();
                                         }
